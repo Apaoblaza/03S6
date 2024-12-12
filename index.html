@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+    <br />
+    <p>Nueva Tarea</p>
+    <div style="display: flex; flex-direction: row">
+      <input type="text" id="textfield" style="width: 50%" />
+      <button id="addbutton">Agregar</button>
+    </div>
+    <div style="display: flex; flex-direction: row; gap: 300px">
+      <div>
+        <h4>Tareas completadas</h4>
+        <p id="tareascompletadas"></p>
+        <h4>Tareas pendientes</h4>
+        <p id="tareaspendientes"></p>
+      </div>
+      <div>
+        <table id="listadotareas"></table>
+      </div>
+    </div>
+    <script src="./contar.js"></script>
+  </body>
+</html>
